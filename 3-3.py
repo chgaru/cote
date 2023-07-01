@@ -1,5 +1,5 @@
 n, m = map(int,input().split())
-start_time = time.time()
+
 d = []
 for i in range(n) :     # 세로
     d.append([])
