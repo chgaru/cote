@@ -1,7 +1,3 @@
-import time
-
-
-
 n, m = map(int,input().split())
 start_time = time.time()
 d = []
@@ -24,5 +20,3 @@ for i in range(n) :
         min = d[i-1][m-1]
 
 print(min)
-end_time = time.time()
-print("시간 :", end_time - start_time)
